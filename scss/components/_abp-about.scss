@@ -1,0 +1,30 @@
+/* start about style 
+   =========comment==========*/
+#about{
+      background:linear-gradient(to left, #080809b0, #080809b8),url('../images/About-img.png') no-repeat center / cover;
+      padding: 60px 0;
+      // margin-top: 77px;
+      .about-content{
+            padding: 60px 0;
+            text-align: center;
+            h4{
+                  font-size: 24px;
+                  color: #fff;
+                  font-weight: 400;    
+            }
+            h5{
+                  font-size: 18px;
+                  color: #fff;
+                  font-weight: 400;
+                  margin-top: 5px;
+                  span{
+                        color: #de4644;
+                  }
+                  i{
+                        font-size: 16px;
+                  }
+            }
+      }
+}
+/* end about style 
+   =========comment==========*/

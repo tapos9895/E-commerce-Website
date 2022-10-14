@@ -1,0 +1,106 @@
+
+/* start feature style 
+   ===================*/
+   #feature{
+      padding: 50px 0;
+   }
+   .feature_heading{
+      h2{
+            font-size: 40px;
+            font-weight: 400;
+            color: #222222;
+            text-transform: capitalize;
+            position: relative;
+            display: inline-block;
+            &::before{
+                  position: absolute;
+                  height: 2px;
+                  width: 172px;
+                  background: #de4644;
+                  left: 2px;
+                  bottom: -10px;
+                  content: "";
+            }
+            &::after{
+                  position: absolute;
+                  height: 2px;
+                  width: 90px;
+                  background: #de4644;
+                  left: 2px;
+                  bottom: -14px;
+                  content: "";
+            }
+      }
+     
+   }
+   .works_button button{
+      background: none;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 5px;
+      
+   }
+   .button-group .active {
+      color: #ffff;
+      background: #de4644;
+    }
+   .product_img{
+      position: relative;
+      .overlay_product{
+            position: absolute;
+            width: 0%;
+            height: 100%;
+            background: #3e3e3dcd;
+            top: 0;
+            right: 0;
+            content: "";
+            opacity: 0;
+            transition: .5s;
+      }
+      .overlay-item{
+            position: absolute;
+            top: 30%;
+            left: 30%;
+            i{
+                  display: block;
+                  font-size: 20px;
+                  color: #fff;
+                  height: 40px;
+                  width: 40px;
+                  border: 1px solid #ffff;
+                  border-radius: 50%;
+                  line-height:40px;
+                  text-align: center;
+                  margin-bottom: 14px;
+                  transition: .5s;
+                  &:hover{
+                        background: #de4644;
+                        border: 1px solid transparent;
+                       }
+                  
+            }
+            
+      }
+      &:hover .overlay_product{
+        opacity: 1;
+        width: 30%;
+      }
+   
+   }
+   .product_item{
+      .first_cloth{
+            margin-top: 10px;
+            h5{
+              font-size: 16px;
+            }
+            i{
+                  font-size: 16px;
+                  color: #de4644;
+            }
+            
+      }
+     }
+ 
+   /* end feature style 
+   ===================*/
+ 

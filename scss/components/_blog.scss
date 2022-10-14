@@ -1,0 +1,111 @@
+/* start testimonial style 
+   ===================*/
+  #blog{
+      padding: 20px 0 50px 0;
+  }
+   .blog-heading{
+      margin-bottom: 60px;
+      h2{
+            font-size: 40px;
+            font-weight: 400;
+            color: #222222;
+            text-transform: capitalize;
+            position: relative;
+            display: inline-block;
+            &::before{
+                  position: absolute;
+                  height: 2px;
+                  width: 160px;
+                  background: #de4644;
+                  left:0px;
+                  bottom: -6px;
+                  content: "";
+            }
+            &::after{
+                  position: absolute;
+                  height: 2px;
+                  width: 90px;
+                  background: #de4644;
+                  left: 0px;
+                  bottom:-10px;
+                  content: "";
+            }
+      }
+
+   }
+   .blog-img{
+      position: relative;
+      .blog_overlay{
+            position: absolute;
+            height: 0%;
+            width: 100%;
+            left: 0;
+            top: 0;
+            background: #3f3f3fb5;
+            content: "";
+            opacity: 0;
+            transition: .5s;
+      }
+      p{
+            font-size: 16px;
+            color: #fff;
+            margin-left: 15px;
+      }
+      i{
+            margin-right: 7px;
+      }
+      .date{
+            margin-top: 10px;
+      }
+   .blog-link{
+      position: absolute;
+      top: 44%;
+      left: 47%;
+      i{
+            font-size: 16px;
+            color: #fff;
+            height: 40px;
+            width: 40px;
+            border: 1px solid #fff;
+            line-height: 40px;
+            text-align: center;
+            border-radius: 50%;
+            transition: .5s;
+            &:hover{
+                  background: #de4644;
+                  border: 1px solid transparent;
+            }
+      }
+   }  
+  .like-comment{
+      position: absolute;
+      left: 0;
+      bottom: 10px;
+  }
+  &:hover .blog_overlay{
+      opacity: 1;
+      height: 100%;
+  }
+   }
+   .blog_details{
+      h4{
+            font-size: 20px;
+            color: #222222;
+            text-transform: capitalize;
+            margin-top: 15px;
+      }
+      p{
+            font-size: 15px;
+            color: #444444;
+            margin-top: 15px;
+      }
+      a{
+            font-size: 16px;
+            color: #222222;
+            margin-top: 15px;
+            transition: .5s;
+            &:hover{
+                  color: #de4644;
+            }
+      }
+   }

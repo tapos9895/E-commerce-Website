@@ -1,0 +1,108 @@
+
+.footer_top{
+      background: #353535;
+      padding: 50px 0;
+}
+.footer_first{
+      p{
+            font-size: 15px;
+            color: #dddddd;
+            margin-top: 15px;
+      }
+}
+.footer_second{
+      h6{
+            font-size: 16px;
+            color: #fff;
+            margin-top: 13px;
+      }
+      p{
+            font-size: 15px;
+            color: #dddddd;
+            margin-bottom: 13px;
+      }
+      i{
+            margin-right: 20px;
+      }
+}
+.second_details {
+      margin-top: 32px;
+    }
+.footer_third{
+      h6{
+            font-size: 16px;
+            color: #fff;
+            margin-top: 13px;
+      }
+      .third_details{
+            margin-top: 30px;
+            p{
+                  font-size: 15px;
+                  color: #dddddd !important;
+                  margin-bottom: 4px;
+            }
+
+      }
+     
+}
+.footer_last{
+      
+            h6{
+                  font-size: 16px;
+                  color: #fff;
+                  margin-top: 13px;
+            }   
+     
+}
+.form{
+      display: flex;
+      margin-top: 30px;
+      input{
+            background: none;
+            border: 1px solid #ffff;
+            color: #dddd;
+            padding: 10px 10px;
+            width: 315px;
+      }
+      .submit{
+            a{
+                  font-size: 16px;
+                  color: #fff;
+                  background: #de4644;
+                  padding: 11px 19.4px;
+            }
+      }
+}
+.follow-me{
+      margin-top: 25px;
+}   
+.sopcial-links{
+      margin-top: 15px;
+      i{
+            height: 35px;
+            width: 35px;
+            background: #fff;
+            color: #353535;
+            border-radius: 50%;
+            line-height: 35px;
+            text-align: center;
+            margin-right: 10px;
+            transition: .5s;
+            &:hover{
+                  background: #de4644;
+                  color: #fff;
+            }
+      }
+}
+.footer_bottom{
+      background: #555555;
+      
+      p{
+            font-size: 15px ;
+            color: #fff;
+            margin-top: 16px;
+      }
+      .payment{
+            padding: 13px 0;
+      }
+}

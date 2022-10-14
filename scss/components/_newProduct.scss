@@ -1,0 +1,48 @@
+
+/* start feature style 
+   ===================*/
+#new_product{
+      background:#f1f1f1 ;
+      padding:30px 0;
+   }
+  .peoduct_detail{
+      h5{
+            font-size: 20px;
+            color: #222222;
+            font-weight: 400;
+            
+      }
+      h2{
+            font-size: 40px;
+            font-weight: 400;
+            color: #de4644;
+            margin-top: 5px;
+      }
+      p{
+            font-size: 15.5px;
+            color: #444444;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            
+      }
+  }
+  .counter_timer{
+      margin-top: 30px;
+      display: flex;
+      .counter_item{
+            border: 1px solid #444444;
+            padding: 14px 15px;
+            text-align: center;
+            margin-right: 30px;
+      }
+      h6{
+            font-size: 20px;
+            margin-top: 5px;
+            font-weight: 400;
+      }
+      
+      
+  }
+  /* end feature style 
+   ===================*/
+ 

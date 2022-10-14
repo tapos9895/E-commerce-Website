@@ -1,0 +1,88 @@
+/* start banner style 
+   ===================*/
+
+#banner{
+      position: relative;
+}
+.banner_item{
+      padding: 132px;
+      position: relative;
+      z-index: 1;
+      &::after{
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            background:linear-gradient(to left, #101600d8, #275454c7);
+            content: "";
+            z-index: -1;
+      }
+      .banner_content{
+            margin-top: -15px;
+            margin-left: -78px;
+            h1{
+                  font-size: 70px;
+                  color: #de4644;
+            }
+            h2{
+                  font-size: 40px;
+                  color: #fff;
+                  font-weight: 400;
+            }
+            p{
+                  font-size: 15.8px;
+                  color: #f1f1f1;
+            }
+      }
+      .banner_button{
+            margin-top: 35px;
+            a{
+                  font-size: 16px;
+                  color: #fff;
+                  border: 1px solid #fff;
+                  padding: 16px 24px;
+                  border-radius: 4px;
+                  margin-right: 10px;
+                  transition: .5s;
+                  &:hover{
+                        background: #de4644;
+                        border: 1px solid transparent;
+                  }
+
+            }
+           
+      }
+}
+.banner_prev{
+      position: absolute;
+      left: 52%;
+      bottom: 8%;
+      color: #fff;
+      height: 40px;
+      width: 40px;
+      border: 1px solid #fff;
+      text-align: center;
+      line-height: 40px;
+      transition: .5s;
+      &:hover{
+           background: #de4644;
+           border: 1px solid transparent;
+      }
+}
+.banner_next{
+      position: absolute;
+      left: 48%;
+      bottom: 8%;
+      color: #fff;
+      height: 40px;
+      width: 40px;
+      border: 1px solid #fff;
+      text-align: center;
+      line-height: 40px;
+      transition: .5s;
+      &:hover{
+           background: #de4644;
+           border: 1px solid transparent;
+      }
+}

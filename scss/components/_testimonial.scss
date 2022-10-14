@@ -1,0 +1,110 @@
+/* start testimonial style 
+   ===================*/
+   #testimonial{
+      padding: 20px 0;
+      position: relative;
+      
+   }
+   .testimonial_heading{
+      h2{
+            font-size: 40px;
+            font-weight: 400;
+            color: #222222;
+            text-transform: capitalize;
+            position: relative;
+            display: inline-block;
+            &::before{
+                  position: absolute;
+                  height: 2px;
+                  width: 172px;
+                  background: #de4644;
+                  left: 0px;
+                  bottom: -6px;
+                  content: "";
+            }
+            &::after{
+                  position: absolute;
+                  height: 2px;
+                  width: 90px;
+                  background: #de4644;
+                  left: 0px;
+                  bottom:-10px;
+                  content: "";
+            }
+      }
+
+   }
+   .testimonial_part{
+      background:linear-gradient(to left, #302c2ad7, #22190cd3),url(../images/testimonial.jpg) no-repeat center / cover;
+      margin-top: 50px;
+      padding: 60px 0 100px 0;
+
+   }
+   .testimonial_content{
+      h4{
+            font-size: 22px;
+            color: #fff;
+            font-weight: 400;
+            text-transform: capitalize;
+      }
+      h5{
+            font-size: 18px;
+            color: #fff;
+            font-weight: 400;
+            text-transform: capitalize;
+      }
+    p{
+      color: #fff;
+      font-size: 17px;
+      font-weight: 400;
+      margin-top: 20px;
+    }
+   }
+   .signature{
+      text-align: right;
+      p{
+            font-family: 'Sacramento', cursive;
+            font-weight: 400;
+            font-size: 18px;
+            color: #fff;
+      }
+   }
+  
+   .textimonial_prev{
+      position: absolute;
+      left: 51%;
+      bottom: 11%;
+      color: #ffff;
+      height: 40px;
+      width: 40px;
+      border: 1px solid #fff;
+      text-align: center;
+      line-height: 40px;
+      transition: .5s;
+      &:hover{
+            
+           background: #de4644;
+           border: 1px solid transparent;
+      }
+}
+.textimonial_next{
+      position: absolute;
+      left: 47%;
+      bottom: 11%;
+      color: #ffffff;
+      height: 40px;
+      width: 40px;
+      border: 1px solid #ffff;
+      text-align: center;
+      line-height: 40px;
+      transition: .5s;
+      &:hover{
+            color: #fff;
+           background: #de4644;
+           border: 1px solid transparent;
+      }
+}
+
+/* end testimonial style 
+   ===================*/
+  

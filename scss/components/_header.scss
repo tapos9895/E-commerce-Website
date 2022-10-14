@@ -1,0 +1,90 @@
+/* start header style 
+   =========comment==========*/
+
+header{
+    background: #444444; 
+}
+.language .dropdown-menu,.dollar .dropdown-menu{
+      border: none;
+  }
+  .top-item{
+    padding: 10px 0;
+    border-right: 2px solid #dddddd;
+    // .dropdown {
+    //     // margin-left: -10px;
+    //     // border-right: 2px solid #dddddd;
+    //     // padding: 10px 0;
+    //   }
+    .dropdown-menu{
+     background: #444444;
+    }
+    .dropdown-menu li a{
+            color: #dddddd !important;
+            &:hover{
+                background: none;
+            }
+          }
+          .btn{
+            color: #dddddd;
+          }
+    }
+    // .top-item{
+    //     // .dropdown {
+    //     //     margin-left: -10px;
+    //     //     padding: 10px 0;
+    //     //     border-right: 2px solid #dddddd;
+    //     //   }
+    //     .dropdown-menu{
+    //      background: #444444;
+    //     }
+    //     .dropdown-menu li a{
+    //             color: #dddddd !important;
+    //             &:hover{
+    //                 background: none;
+    //             }
+    //           }
+    //           .btn{
+    //             color: #dddddd;
+    //           }
+    //     }
+        .log_in{
+          margin-left: -11px;
+          padding-top: 17px;
+         
+            p{
+                color: #dddddd;
+                font-size: 14px;
+            }
+        }
+        .header-right{
+         display: flex;
+         justify-content: end;
+         padding-top: 16p;
+         p{
+            font-size: 15px;
+            color: #dddd;
+         }
+         i{
+            margin-right: 10px;
+         }
+         .right-item{
+            margin-right: 0px !important;
+            padding-top: 17px;
+            position: relative;
+            &::before{
+                position: absolute;
+                height: 58px;
+                width: 2px;
+                background: #dddddd;
+                right: -32px;
+                top: 0;
+                content: "";
+            }
+         }
+         .log{
+            padding-top: 17px;
+         }
+        }
+      /* end header style 
+   =========comment==========*/
+      

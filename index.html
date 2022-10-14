@@ -1,0 +1,1414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/slick.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".menu_bg">
+<!-- start sidemenu html -->
+<div class="sidemenu d-lg-none "> 
+  <div class="troggole">
+      <div class="close-side">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div> 
+      </div>
+  </div>
+  <div class="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="product.html">Product</a></li>
+      <li><a href="shipping.html">Shopping</a></li>
+      <li><a href="checkout.html">Checkout</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+     
+  </div>
+ </div>
+ <!-- end sidemenu html -->
+<!-- start header-section
+     ===========comment========== -->
+     <header>
+      <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-4 col-sm-4 col-md-4 d-none d-lg-block">
+                <div class="header-top d-none d-md-block ">
+                  <div class="row">
+                    <div class="col-lg-3 col-3 col-sm-3 col-md-3">
+                      <div class="top-item ">
+                            <div class="dropdown">
+                                  <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Eng
+                                  </button>
+                                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">Ban</a></li>
+                                    <li><a class="dropdown-item" href="#">Hin</a></li>
+                                    <li><a class="dropdown-item" href="#">Pak</a></li>
+                                  </ul>
+                                </div> 
+                      </div>
+                </div>
+                  <div class="col-lg-3 col-3 col-sm-3 col-md-3">
+                    <div class="top-item money">
+                          <div class="dropdown">
+                                <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                  USD$
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                  <li><a class="dropdown-item" href="#">yuan</a></li>
+                                  <li><a class="dropdown-item" href="#">TAKA</a></li>
+                                  <li><a class="dropdown-item" href="#">Rup</a></li>
+                                </ul>
+                              </div>
+                    </div>
+              </div>
+  <div class="col-lg-6 col-6 col-sm-6 col-md-6">
+    <div class="log_in">
+          <p>Toll Free: +123 4567 8900</p>
+    </div>
+</div>
+            </div>
+                </div>
+                </div>
+                <div class="col-lg-4">
+                </div>
+                <div class="col-lg-4 col-12 col-sm-14 col-md-12 pe-0">
+                  <div class="header-right">
+                    <div class="col-lg-3 col-3 col-sm-3 col-md-3">
+                      <div class="right-item text-start">
+                        <p><i class="fa-solid fa-heart"></i>Wishlist</p>
+                  </div>
+                    </div>
+                    <div class="col-lg-4 col-4 col-sm-4 col-md-4">
+                      <div class="right-item text-center">
+                        <p><i class="fa-solid fa-user"></i>My Account</p>
+                  </div>
+                    </div>
+                    <div class="col-lg-5 col-5 col-sm-5 col-md-5">
+                      <div class="log text-end">
+                        <p> <i class="fa-solid fa-house"></i>Log in / Register</p>
+                  </div>
+                    </div>
+              </div>
+              </div>
+              </div>
+            </div>
+      </div>
+     </header>
+<!-- end header-section
+     ===========comment========== -->
+     <!-- start card-section
+     ===========comment========== -->
+     <div class="card d-lg-none">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2 col-2 col-sm-2 col-md-2">
+            <div class="logo-card">
+              <a href="#"><img src="images/logo.png"></a>
+            </div>
+          </div>
+          <div class="col-lg-9 col-9 col-sm-9 col-md-9">
+            <div class="card-search d-flex">
+              <div class="card-form">
+                <input type="text" placeholder="Search in E-buy">
+              </div>
+              <div class="product-search">
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-1 col-1 col-sm-1 col-md-1">
+            <div class="card-offer d-flex">
+              <div class="card-buy mt-1">
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-cart-shopping"></i> </button>
+   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      ...
+    </div>
+  </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+     
+      </div>
+     </div>
+      <!-- end card-section
+     ===========comment========== -->
+     <!-- start menu-section
+     ===========comment========== -->
+     <section id="menu">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light d-none d-lg-block menu_bg">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="product.html">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shipping.html">Shopping</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="checkout.html">Checkout</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="search-item d-flex">
+            <form action="">
+              <div class="close">
+                <input type="text" class="class_input">
+                  <i class="fa-solid fa-magnifying-glass clickkk"></i>
+              </div>
+            </form>
+            <div class="item-select">
+             
+              <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-cart-shopping"></i> Item</button>
+
+ <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    ...
+  </div>
+</div>
+
+            </div>
+          </div>
+        </div>
+      </nav>
+          </div>         
+     </section>
+       <!-- end menu-section
+            ========comment========== -->
+      <!-- start banner-section
+          =======comment========== -->
+          <section id="banner">
+            <div class="banner_part">
+            <div class="banner_item" style="background:url(images/banner1.png) no-repeat center / cover">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-5">
+                    <div class="banner_content">
+                      <h1>2017</h1>
+                      <h2>Trendy Design</h2>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting stry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+                      <div class="banner_button">
+                        <a href="#">VIEW MORE</a>
+                        <a href="#">PURCHASE</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="banner_item" style="background:url(images/banner\ newwwwwwwwwww.jpg) no-repeat center / cover">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-5">
+                    <div class="banner_content">
+                      <h1>2017</h1>
+                      <h2>Trendy Design</h2>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting stry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+                      <div class="banner_button">
+                        <a href="#">VIEW MORE</a>
+                        <a href="#">PURCHASE</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="banner_item" style="background:url(images/bag.jpg) no-repeat center / cover">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-5">
+                    <div class="banner_content">
+                      <h1>2017</h1>
+                      <h2>Trendy Design</h2>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting stry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+                      <div class="banner_button">
+                        <a href="#">VIEW MORE</a>
+                        <a href="#">PURCHASE</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+              </div>
+            </div>
+            <i class="fa-solid fa-chevron-left banner_next"></i>
+            <i class="fa-solid fa-angle-right banner_prev"></i>
+          </section>
+      <!-- end banner-section
+           ======comment========== -->
+               <!-- start service-section
+                   ======comment========== -->
+           <section id="service">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="service_item text-center">
+                    <h4><i class="fa-solid fa-truck"></i>Free Shipping</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="service_item text-center">
+                    <h4><i class="fa-solid fa-info"></i>24/7 Support</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="service_cash text-center">
+                    <h4><i class="fa-solid fa-wallet"></i>Cashback</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+           </section>
+            <!-- end banner-section
+                ======comment========== -->
+                  <!-- start gellary-section
+                   ======comment========== -->
+                   <section id="gellery">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                          <div class="gellery_item"> 
+                            <div class="gellery_img">
+                              <img src="images/gellery1.jpg" alt="gellery1" class="w-100">
+                              <div class="gellery_overlay">
+                                <div class="image_age d-none"><h5>NEW</h5></div>
+                               <div class="gellery-content text-center">
+                                <h3>New</h3>
+                                <h4>Jeans Shirt</h4>
+                                <a href="#">Shop Now</a>
+                               </div>
+                              </div>
+                            </div>                          
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                          <div class="gellery_item"> 
+                            <div class="gellery_img">
+                              <img src="images/gellery2.jpg" alt="gellery1" class="w-100">
+                              <div class="gellery_overlay">
+                                <div class="image_age d-none"><h5>NEW</h5></div>
+                               <div class="gellery-content text-center">
+                                <h3>2017</h3>
+                                <h4>Women’s Glass</h4>
+                                <div class="new">
+                                  <img src="images/new.png" alt="new">
+                                </div>
+
+
+
+
+
+                                <a href="#">Shop Now</a>
+                               </div>
+                              </div>
+                            </div>                          
+                          </div>
+                        </div>
+                        <div class="col-lg-4 d-none d-lg-block">
+                          <div class="gellery_item"> 
+                            <div class="gellery_img">
+                              <img src="images/gellery3.jpg" alt="gellery1" class="w-100">
+                              <div class="gellery_overlay">
+                                <div class="image_age d-none"><h5>NEW</h5></div>
+                               <div class="gellery-content text-center">
+                                <h3>Best</h3>
+                                <h4>Mens Shirt</h4>
+                                <a href="#">Shop Now</a>
+                               </div>
+                              </div>
+                            </div>                          
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                   </section>
+                    <!-- end gellary-section
+                   ======comment========== -->
+                   <!-- start feature-section
+                   ======comment========== -->
+                   <section id="feature">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-6 offset-lg-3">
+                          <div class="feature_heading text-center">
+                            <h2>Featured Products</h2>
+                          </div>
+                          <div class="works_button text-center my-5 animate__animated animate__backOutLeft">
+                            <div class="button-group filter-button-group">
+                              <button data-filter="*" class="active">All</button>
+                              <button data-filter=".men"> Men</button>
+                              <button data-filter=".women ">Women</button>
+                              <button data-filter=".children">Children</button>
+                              <button data-filter=".accesorries">Accesorries</button>
+                              
+                            </div>
+                           </div>
+                        </div>
+                      </div>
+                      <div class="row grid">
+                        <div class="row grid-item women">
+                          <div class="col-lg-3 mt-4 col-6">
+                            <div class="product_item">
+                              <div class="product_img">
+                                <img src="images/women1.jpg" alt="women1"class="w-100">
+                                <div class="overlay_product">
+                                  <div class="overlay-item">
+                                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-sliders"></i></a>
+                                   <a href="#"><i class="fa-solid fa-bucket"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-8 col-8 col-sm-8 col-md-8">
+                                  <div class="first_cloth">
+                                    <h5>Woolen T-Shirt</h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                  </div>
+
+                                </div>
+                                <div class="col-lg-4 col-4 col-sm-4 col-md-4">
+                                  <div class="price">
+                                    <h5>$ 99.0</h5>
+                                 </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 mt-4 col-6">
+                            <div class="product_item">
+                              <div class="product_img">
+                                <img src="images/women2.jpg" alt="women2"class="w-100">
+                                <div class="overlay_product">
+                                  <div class="overlay-item">
+                                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-sliders"></i></a>
+                                   <a href="#"><i class="fa-solid fa-bucket"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-8 col-8 col-sm-8 col-md-8">
+                                  <div class="first_cloth">
+                                    <h5>Woolen T-Shirt</h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                  </div>
+
+                                </div>
+                                <div class="col-lg-4 col-4 col-sm-4 col-md-4">
+                                  <div class="price">
+                                    <h5>$ 99.0</h5>
+                                 </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 mt-4 col-6">
+                            <div class="product_item">
+                              <div class="product_img">
+                                <img src="images/women3.jpg" alt="women3"class="w-100">
+                                <div class="overlay_product">
+                                  <div class="overlay-item">
+                                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-sliders"></i></a>
+                                   <a href="#"><i class="fa-solid fa-bucket"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-8 col-8 col-sm-8 col-md-8">
+                                  <div class="first_cloth">
+                                    <h5>Woolen T-Shirt</h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                  </div>
+
+                                </div>
+                                <div class="col-lg-4 col-4 col-sm-4 col-md-4">
+                                  <div class="price">
+                                    <h5>$ 99.0</h5>
+                                 </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 mt-4 col-6">
+                            <div class="product_item">
+                              <div class="product_img">
+                                <img src="images/women3.jpg" alt="women3"class="w-100">
+                                <div class="overlay_product">
+                                  <div class="overlay-item">
+                                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-sliders"></i></a>
+                                   <a href="#"><i class="fa-solid fa-bucket"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-8 col-8 col-sm-8 col-md-8">
+                                  <div class="first_cloth">
+                                    <h5>Woolen T-Shirt</h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                  </div>
+
+                                </div>
+                                <div class="col-lg-4 col-4 col-sm-4 col-md-4">
+                                  <div class="price">
+                                    <h5>$ 99.0</h5>
+                                 </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row grid-item men">
+                          <div class="col-lg-3 mt-4 col-6">
+                            <div class="product_item">
+                              <div class="product_img">
+                                <img src="images/mmmmmmmmmmmmmmm.jpg" alt="men1"class="w-100">
+                                <div class="overlay_product">
+                                  <div class="overlay-item">
+                                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-sliders"></i></a>
+                                   <a href="#"><i class="fa-solid fa-bucket"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-8 col-8 col-sm-8 col-md-8">
+                                  <div class="first_cloth">
+                                    <h5>Mens T-Shirt</h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                  </div>
+
+                                </div>
+                                <div class="col-lg-4 col-4 col-sm-4 col-md-4">
+                                  <div class="price">
+                                    <h5>$ 99.0</h5>
+                                 </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 mt-4 col-6">
+                            <div class="product_item">
+                              <div class="product_img">
+                                <img src="images/menssss shirt.jpg" alt="men2"class="w-100">
+                                <div class="overlay_product">
+                                  <div class="overlay-item">
+                                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-sliders"></i></a>
+                                   <a href="#"><i class="fa-solid fa-bucket"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-8 col-8 col-sm-8 col-md-8">
+                                  <div class="first_cloth">
+                                    <h5>Mens Shirt</h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                  </div>
+
+                                </div>
+                                <div class="col-lg-4 col-4 col-sm-4 col-md-4">
+                                  <div class="price">
+                                    <h5>$ 99.0</h5>
+                                 </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 mt-4 col-6">
+                            <div class="product_item">
+                              <div class="product_img">
+                                <img src="images/formal.jpg" alt="men3"class="w-100">
+                                <div class="overlay_product">
+                                  <div class="overlay-item">
+                                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-sliders"></i></a>
+                                   <a href="#"><i class="fa-solid fa-bucket"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-8 col-8 col-sm-8 col-md-8">
+                                  <div class="first_cloth">
+                                    <h5>Formal Shirt</h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                  </div>
+
+                                </div>
+                                <div class="col-lg-4 col-4 col-sm-4 col-md-4">
+                                  <div class="price">
+                                    <h5>$ 99.0</h5>
+                                 </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 mt-4 col-6">
+                            <div class="product_item">
+                              <div class="product_img">
+                                <img src="images/man-guy-male-denim-jacket.jpg" alt="men3"class="w-100">
+                                <div class="overlay_product">
+                                  <div class="overlay-item">
+                                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-sliders"></i></a>
+                                   <a href="#"><i class="fa-solid fa-bucket"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-8 col-8 col-sm-8 col-md-8">
+                                  <div class="first_cloth">
+                                    <h5>Mens Pant</h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                  </div>
+
+                                </div>
+                                <div class="col-lg-4 col-4 col-sm-4 col-md-4">
+                                  <div class="price">
+                                    <h5>$ 99.0</h5>
+                                 </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row grid-item children">
+                          <div class="col-lg-3 mt-4 col-6">
+                            <div class="product_item">
+                              <div class="product_img">
+                                <img src="images/bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb.jpg" alt="child1"class="w-100">
+                                <div class="overlay_product">
+                                  <div class="overlay-item">
+                                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-sliders"></i></a>
+                                   <a href="#"><i class="fa-solid fa-bucket"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-8 col-8 col-sm-8 col-md-8">
+                                  <div class="first_cloth">
+                                    <h5>Baby Dress</h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                  </div>
+
+                                </div>
+                                <div class="col-lg-4 col-4 col-sm-4 col-md-4">
+                                  <div class="price">
+                                    <h5>$ 85.0</h5>
+                                 </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 mt-4 col-6">
+                            <div class="product_item">
+                              <div class="product_img">
+                                <img src="images/chloe-dress-baby-vintagelittlelady.jpg" alt="child2"class="w-100">
+                                <div class="overlay_product">
+                                  <div class="overlay-item">
+                                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-sliders"></i></a>
+                                   <a href="#"><i class="fa-solid fa-bucket"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-8 col-8 col-sm-8 col-md-8">
+                                  <div class="first_cloth">
+                                    <h5>Baby Dress</h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                  </div>
+
+                                </div>
+                                <div class="col-lg-4 col-4 col-sm-4 col-md-4">
+                                  <div class="price">
+                                    <h5>$ 65.0</h5>
+                                 </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 mt-4 col-6">
+                            <div class="product_item">
+                              <div class="product_img">
+                                <img src="images/c1b4eab7ab05843b18e59d6e7d1286c7.jpg" alt="child3"class="w-100">
+                                <div class="overlay_product">
+                                  <div class="overlay-item">
+                                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-sliders"></i></a>
+                                   <a href="#"><i class="fa-solid fa-bucket"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-8 col-8 col-sm-8 col-md-8">
+                                  <div class="first_cloth">
+                                    <h5>Baby Dress</h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                  </div>
+
+                                </div>
+                                <div class="col-lg-4 col-4 col-sm-4 col-md-4">
+                                  <div class="price">
+                                    <h5>$ 70.0</h5>
+                                 </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 mt-4 col-6">
+                            <div class="product_item">
+                              <div class="product_img">
+                                <img src="images/photo-1578897367107-2828e351c8a8.jpg" alt="child3"class="w-100">
+                                <div class="overlay_product">
+                                  <div class="overlay-item">
+                                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-sliders"></i></a>
+                                   <a href="#"><i class="fa-solid fa-bucket"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-8 col-8 col-sm-8 col-md-8">
+                                  <div class="first_cloth">
+                                    <h5>Baby Dress</h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                  </div>
+
+                                </div>
+                                <div class="col-lg-4 col-4 col-sm-4 col-md-4">
+                                  <div class="price">
+                                    <h5>$ 80.0</h5>
+                                 </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row grid-item accesorries">
+                          <div class="col-lg-3 mt-4 col-6">
+                            <div class="product_item">
+                              <div class="product_img">
+                                <img src="images/e1.jpg" alt="women1"class="w-100">
+                                <div class="overlay_product">
+                                  <div class="overlay-item">
+                                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-sliders"></i></a>
+                                   <a href="#"><i class="fa-solid fa-bucket"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-8 col-8 col-sm-8 col-md-8">
+                                  <div class="first_cloth">
+                                    <h5>Accessories</h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                  </div>
+
+                                </div>
+                                <div class="col-lg-4 col-4 col-sm-4 col-md-4">
+                                  <div class="price">
+                                    <h5>$ 55.0</h5>
+                                 </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 mt-4 col-6">
+                            <div class="product_item">
+                              <div class="product_img">
+                                <img src="images/juuj.jpg" alt="Accesorries2"class="w-100">
+                                <div class="overlay_product">
+                                  <div class="overlay-item">
+                                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-sliders"></i></a>
+                                   <a href="#"><i class="fa-solid fa-bucket"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-8 col-8 col-sm-8 col-md-8">
+                                  <div class="first_cloth">
+                                    <h5>Bag</h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                  </div>
+
+                                </div>
+                                <div class="col-lg-4 col-4 col-sm-4 col-md-4">
+                                  <div class="price">
+                                    <h5>$ 86.0</h5>
+                                 </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 mt-4 col-6">
+                            <div class="product_item">
+                              <div class="product_img">
+                                <img src="images/Top-15-Fashion-Accessories-For-Men-1.jpg" alt="Accesorries2"class="w-100">
+                                <div class="overlay_product">
+                                  <div class="overlay-item">
+                                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-sliders"></i></a>
+                                   <a href="#"><i class="fa-solid fa-bucket"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-8 col-8 col-sm-8 col-md-8">
+                                  <div class="first_cloth">
+                                    <h5>Woolen Hat</h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                  </div>
+
+                                </div>
+                                <div class="col-lg-4 col-4 col-sm-4 col-md-4">
+                                  <div class="price">
+                                    <h5>$ 35.0</h5>
+                                 </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 mt-4 col-6">
+                            <div class="product_item">
+                              <div class="product_img">
+                                <img src="images/mobile.jpg" alt="Accesorries2"class="w-100">
+                                <div class="overlay_product">
+                                  <div class="overlay-item">
+                                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-sliders"></i></a>
+                                   <a href="#"><i class="fa-solid fa-bucket"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-8 col-8 col-sm-8 col-md-8">
+                                  <div class="first_cloth">
+                                    <h5>Mobile</h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                  </div>
+
+                                </div>
+                                <div class="col-lg-4 col-4 col-sm-4 col-md-4">
+                                  <div class="price">
+                                    <h5>$ 99.0</h5>
+                                 </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                   </section>
+                   <!-- end feature-section
+                   ======comment========== -->
+                    <!-- start new_product-section
+                         ======comment========== -->
+                         <section id="new_product">
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-lg-6">
+                                <div class="microsoft_img">
+                                  <img src="images/laptop.jpg" alt="laptop" class="w-100">
+                                </div>
+                              </div>
+                              <div class="col-lg-6">
+                                <div class="peoduct_detail">
+                                  <h5>NEW PRODUCT</h5>
+                                  <h2>Microsoft Surface Pro</h2>
+                                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Loremsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It hasived not only five centuries, with the release of Letraset sheets.</p>
+                                  <h5>Launch in</h5>
+                                  <div class="counter_timer">
+                                    <div class="counter_item">
+                                      <h5 id="demo"></h5>
+                                      <h6>Days</h6>
+                                    </div>
+                                    <div class="counter_item">
+                                      <h5 id="demo1"></h5>
+                                      <h6>Hours</h6>
+                                      </div>
+                                    <div class="counter_item">
+                                      <h5 id="demo2"></h5>
+                                      <h6>Mins</h6>
+                                    </div>
+                                    <div class="counter_item">
+                                      <h5 id="demo3"></h5>
+                                      <h6>Secs</h6>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                         </section>
+                    <!-- end new_product-section
+                    ======comment========== -->
+                    <!--start Latest-Products-section
+                    ======comment========== -->
+                    <section id="latest_product">
+                      <div class="container">
+                        <div class="row ">
+                          <div class="col-lg-6 offset-lg-3">
+                            <div class="product_heading text-center">
+                              <h2>Latest Products</h2>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row mt-5 product_part">
+                          <div class="col-lg-3">
+                            <div class="item_product">
+                              <div class="ptoduct_img">
+                                <img src="images/product1.jpg" alt="product1"class="w-100">
+                                <div class="overlay_product">
+                                  <div class="overlay-item">
+                                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-sliders"></i></a>
+                                   <a href="#"><i class="fa-solid fa-bucket"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-8 col-8 col-sm-8 col-md-8">
+                                    <div class="phone_details">
+                                      <h5>Samsung-GTS</h5>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-4 col-sm-4 col-md-4">
+                                  <div class="price">
+                                    <h5>$90.0</h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3">
+                            <div class="item_product">
+                              <div class="ptoduct_img">
+                                <img src="images/product2.jpg" alt="product1"class="w-100">
+                                <div class="overlay_product">
+                                  <div class="overlay-item">
+                                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-sliders"></i></a>
+                                   <a href="#"><i class="fa-solid fa-bucket"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-8 col-8 col-sm-8 col-md-8">
+                                    <div class="phone_details">
+                                      <h5>Samsung-Notebook</h5>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-4 col-sm-4 col-md-4">
+                                  <div class="price">
+                                    <h5>$90.0</h5>
+                                  </div>
+                                </div>
+                              </div>                         
+                            </div>
+                          </div>
+                          <div class="col-lg-3">
+                            <div class="item_product">
+                              <div class="ptoduct_img">
+                                <img src="images/product3.jpg" alt="product1"class="w-100">
+                                <div class="overlay_product">
+                                  <div class="overlay-item">
+                                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-sliders"></i></a>
+                                   <a href="#"><i class="fa-solid fa-bucket"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-8 col-8 col-sm-8 col-md-8">
+                                    <div class="phone_details">
+                                      <h5>iPhone-6sPlus</h5>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-4 col-sm-4 col-md-4">
+                                  <div class="price">
+                                    <h5>$99.0</h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3">
+                            <div class="item_product">
+                              <div class="ptoduct_img">
+                                <img src="images/product4.jpg" alt="product1"class="w-100">
+                                <div class="overlay_product">
+                                  <div class="overlay-item">
+                                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-sliders"></i></a>
+                                   <a href="#"><i class="fa-solid fa-bucket"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-8 col-8 col-sm-8 col-md-8">
+                                    <div class="phone_details">
+                                      <h5>HTC-Bluray 35</h5>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-4 col-sm-4 col-md-4">
+                                  <div class="price">
+                                    <h5>$99.0</h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-4">
+                            <div class="item_product">
+                              <div class="ptoduct_img">
+                                <img src="images/product2.jpg" alt="product1" class="w-100">
+                                <div class="overlay_product">
+                                  <div class="overlay-item">
+                                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-sliders"></i></a>
+                                   <a href="#"><i class="fa-solid fa-bucket"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-8 col-8 col-sm-8 col-md-8">
+                                    <div class="phone_details">
+                                      <h5>HTC-Bluray 35</h5>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-4 col-sm-4 col-md-4">
+                                  <div class="price">
+                                    <h5>$99.0</h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <i class="fa-solid fa-chevron-left product_next"></i>
+                      <i class="fa-solid fa-angle-right product_prev"></i>
+                    </section>
+                    <!--end Latest-Products section
+                        ========================== -->
+                        <section id="testimonial">
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-lg-6 offset-lg-3">
+                                <div class="testimonial_heading text-center">
+                                  <h2>Testimonial</h2>
+                                </div>
+
+                              </div>
+                            </div>
+                          </div>
+                            <div class="testimonial_part">
+                             <div class="container">
+                              <div class="row testimonial_item">
+                                <div class="col-lg-6">
+                                  <div class="testimonial_content">
+                                    <div class="row">
+                                      <div class="col-lg-3">
+                                        <div class="profile">
+                                          <img src="images/test-profile2.png" alt="test-profile">
+                                        </div>
+                                      </div>
+                                      <div class="col-lg-9">
+                                        <div class="testimonial_content">
+                                          <h4>ASH Shakir</h4>
+                                          <h5>Sketch Artist</h5>
+                                          <p>Lorem Ipsum is simply dummy text of the printing and stry. Lorem sum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a ive centuries, but also the leap into electronic.</p>
+                                          <div class="signature">
+                                            <p>Asa Shakir</p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-lg-6">
+                                  <div class="testimonial_content">
+                                    <div class="row">
+                                      <div class="col-lg-3">
+                                        <div class="profile">
+                                          <img src="images/test-profile.png" alt="test-profile">
+                                        </div>
+                                      </div>
+                                      <div class="col-lg-9">
+                                        <div class="testimonial_content">
+                                          <h4>Aminul Islam</h4>
+                                          <h5>Web Developer</h5>
+                                          <p>Lorem Ipsum is simply dummy text of the printing and stry. Lorem sum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a ive centuries, but also the leap into electronic.</p>
+                                          <div class="signature">
+                                            <p>Aminul Ilam</p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-lg-6">
+                                  <div class="testimonial_content">
+                                    <div class="row">
+                                      <div class="col-lg-3">
+                                        <div class="profile">
+                                          <img src="images/test-profile.png" alt="test-profile">
+                                        </div>
+                                      </div>
+                                      <div class="col-lg-9">
+                                        <div class="testimonial_content">
+                                          <h4>ASH Shakir</h4>
+                                          <h5>Sketch Artist</h5>
+                                          <p>Lorem Ipsum is simply dummy text of the printing and stry. Lorem sum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a ive centuries, but also the leap into electronic.</p>
+                                          <div class="signature">
+                                            <p>Asa Shakir</p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                             </div>
+                            </div>
+                            <i class="fa-solid fa-chevron-left textimonial_next"></i>
+                           <i class="fa-solid fa-angle-right textimonial_prev "></i>
+                        </section>
+                        <!--start testimoni section
+                        ========================== -->
+                        <!--start blog section
+                        ========================== -->
+                        <section id="blog">
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-lg-6 offset-lg-3">
+                                <div class="blog-heading text-center">
+                                  <h2>Our Blog</h2>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-lg-4">
+                                <div class="blog-item">
+                                  <div class="blog-img">
+                                    <img src="images/blog1.jpg" alt="blog1" class="w-100">
+                                    <div class="blog_overlay">
+                                      <div class="overlay_content">
+                                        <div class="date">
+                                          <p><i class="fa-regular fa-calendar"></i>24 octobar 2017</p>
+                                        </div>
+                                        <div class="blog-link">
+                                          <a href="#"><i class="fa-solid fa-link"></i></a>                                   
+                                      </div>
+                                      <div class="like-comment d-flex">
+                                        <div class="admin">
+                                          <p><i class="fa-solid fa-user"></i>By:Admin</p>
+                                        </div>
+                                        <div class="like">
+                                          <p><i class="fa-solid fa-thumbs-up"></i> 2.5k likes</p>
+                                        </div>
+                                        <div class="comments">
+                                          <p><i class="fa-solid fa-message"></i> 1.5k comments</p>
+                                        </div> 
+                                      </div>
+                                      </div>
+                                  </div>
+                                </div>
+                                <div class="blog_details">
+                                  <h4>Best E-commerce I’d shopping yet</h4>
+                                  <p>Lorem Ipsum is simply dummy text of the printing andg industry. Lorem Ipsum has been the indusy's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+                                  <a href="#">READ MORE <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-4">
+                              <div class="blog-item">
+                                <div class="blog-img">
+                                  <img src="images/blog2.jpg" alt="blog2" class="w-100">
+                                  <div class="blog_overlay">
+                                    <div class="overlay_content">
+                                      <div class="date">
+                                        <p><i class="fa-regular fa-calendar"></i>26 octobar 2017</p>
+                                      </div>
+                                      <div class="blog-link">
+                                        <a href="#"><i class="fa-solid fa-link"></i></a>                                   
+                                    </div>
+                                    <div class="like-comment d-flex">
+                                      <div class="admin">
+                                        <p><i class="fa-solid fa-user"></i>By:Admin</p>
+                                      </div>
+                                      <div class="like">
+                                        <p><i class="fa-solid fa-thumbs-up"></i> 2.8k likes</p>
+                                      </div>
+                                      <div class="comments">
+                                        <p><i class="fa-solid fa-message"></i> 1.3k comments</p>
+                                      </div> 
+                                    </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="blog_details">
+                                <h4>I’m satisfy with their services</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing andg industry. Lorem Ipsum has been the indusy's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+                                <a href="#">READ MORE <i class="fa-solid fa-arrow-right"></i></a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-4">
+                            <div class="blog-item">
+                              <div class="blog-img">
+                                <img src="images/blog3.jpg" alt="blog3" class="w-100">
+                                <div class="blog_overlay">
+                                  <div class="overlay_content">
+                                    <div class="date">
+                                      <p><i class="fa-regular fa-calendar"></i>28 octobar 2017</p>
+                                    </div>
+                                    <div class="blog-link">
+                                      <a href="#"><i class="fa-solid fa-link"></i></a>                                   
+                                  </div>
+                                  <div class="like-comment d-flex">
+                                    <div class="admin">
+                                      <p><i class="fa-solid fa-user"></i>By:Admin</p>
+                                    </div>
+                                    <div class="like">
+                                      <p><i class="fa-solid fa-thumbs-up"></i> 2.4k likes</p>
+                                    </div>
+                                    <div class="comments">
+                                      <p><i class="fa-solid fa-message"></i> 1.4k comments</p>
+                                    </div> 
+                                  </div>
+                                  </div>
+                              </div>
+                            </div>
+                            <div class="blog_details">
+                              <h4>I’ll never forget their hospitality</h4>
+                              <p>Lorem Ipsum is simply dummy text of the printing andg industry. Lorem Ipsum has been the indusy's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+                              <a href="#">READ MORE <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                          </div>
+                        </section>
+                        <!--end blog section
+                        ========================== -->
+                           <!--start footer section
+                        ========================== -->
+                        <footer>
+                          <div class="footer_top">
+                            <div class="container">
+                              <div class="row">
+                                <div class="col-lg-3">
+                                  <div class="footer_first">
+                                    <a href="#"><img src="images/logo2.png" alt="logo2"></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                                    <p>magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                                  </div>                                  
+                                </div>
+                                <div class="col-lg-3">
+                                  <div class="footer_second">
+                                    <h6>CONTACT US</h6>
+                                    <div class="second_details">
+                                      <p> <i class="fa-solid fa-location-dot"></i>1234, Parkstreet Avenue, NewYork</p>
+                                      <p><i class="fa-solid fa-phone"></i>+123 456 78900, +009 876 54321</p>
+                                     <p><i class="fa-solid fa-envelope"></i>	info@e-buy.com, e-buy@info.com</p>
+                                      <p><i class="fa-solid fa-globe"></i>www.e-buy.com, www.infobuy.com</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-lg-2">
+                                  <div class="footer_third">
+                                    <h6>MY ACCOUNT</h6>
+                                    <div class="third_details">
+                                      <p>My Account</p>
+                                      <p>Wishlist</p>
+                                      <p>Shopping Cart</p>
+                                      <p>Compare</p>
+                                      <p>Checkout</p>
+                                    </div>
+                                  </div>                               
+                               </div>
+                                <div class="col-lg-4">
+                                  <div class="footer_last">
+                                    <h6 class="letter">Sign Up For Newsletter</h6>
+                                    <div class="form">
+                                      <div class="input">
+                                        <input type="text" placeholder="Your Email">                                       
+                                      </div>
+                                      <div class="submit">
+                                        <a href="#">SUBMIT</a>
+                                      </div>
+                                    </div>
+                                    <div class="follow-me">
+                                      <h6>Follow me on</h6>
+                                    </div>
+                                    <div class="sopcial-links">
+                                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                      <a href="#"><i class="fa-brands fa-behance"></i></a>
+                                      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="footer_bottom">
+                            <div class="container">
+                              <div class="row">
+                                <div class="col-lg-6">
+                                  <div class="copy_write">
+                                    <p>Copyright<i class="fa-regular fa-copyright"></i>2018. All right reserved by E-BUY</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-6">
+                                  <div class="payment text-end">
+                                    <img src="images/payment.png" alt="payment">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>                   
+                        </footer>
+                           <!--end footer section
+                        ========================== -->
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+<script src="js/isotope.pkgd.min.js"></script>
+ <script src="js/slick.min.js"></script>
+<script src="js/main.js"></script> 
+</body>
+</html>

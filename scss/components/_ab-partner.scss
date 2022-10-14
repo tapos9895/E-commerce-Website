@@ -1,0 +1,48 @@
+/* start partner style 
+   =========comment==========*/
+#partner{
+      position: relative;
+      padding: 20px 0 50px 0;
+}
+.partner-part{
+      .slick-slide{
+          padding: 0 20px;
+      }
+}
+.partner_next{
+      position: absolute;
+      left: 1%;
+      bottom: 54%;
+      color: #222222;
+      height: 40px;
+      width: 40px;
+      border: 1px solid #222222;
+      text-align: center;
+      line-height: 40px;
+      transition: .5s;
+      &:hover{
+           color: #fff;
+           background: #de4644;
+           border: 1px solid transparent;
+      }
+}
+
+.partner_prev{
+      position: absolute;
+      right: 1.5%;
+      bottom: 54%;
+      color: #222222;
+      height: 40px;
+      width: 40px;
+      border: 1px solid #222222;
+      text-align: center;
+      line-height: 40px;
+      transition: .5s;
+      &:hover{
+           color: #fff;
+           background: #de4644;
+           border: 1px solid transparent;
+      }
+}
+/* end partner style 
+   =========comment==========*/

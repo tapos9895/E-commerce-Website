@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>product-part</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/jquery.nice-number.css">
+      <link rel="stylesheet" href="css/xzoom.min.css">
+      <link rel="stylesheet" href="css/slick.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".menu_bg">
+  <!-- start sidemenu html -->
+  <div class="sidemenu d-lg-none "> 
+    <div class="troggole">
+        <div class="close-side">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div> 
+        </div>
+    </div>
+    <div class="nav">
+        <ul>
+          <li><a href="about.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="product.html">Product</a></li>
+        <li><a href="shipping.html">Shopping</a></li>
+        <li><a href="checkout.html">Checkout</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+       
+    </div>
+   </div>
+   <!-- end sidemenu html -->
+  <!-- start header-section
+       ===========comment========== -->
+       <header>
+        <div class="container">
+              <div class="row">
+                <div class="col-lg-4 col-4 col-sm-4 col-md-4 d-none d-lg-block">
+                  <div class="header-top d-none d-md-block ">
+                    <div class="row">
+                      <div class="col-lg-3 col-3 col-sm-3 col-md-3">
+                        <div class="top-item ">
+                              <div class="dropdown">
+                                    <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Eng
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                      <li><a class="dropdown-item" href="#">Fra</a></li>
+                                      <li><a class="dropdown-item" href="#">Spa</a></li>
+                                      <li><a class="dropdown-item" href="#">Ger</a></li>
+                                    </ul>
+                                  </div> 
+                        </div>
+                  </div>
+                    <div class="col-lg-3 col-3 col-sm-3 col-md-3">
+                      <div class="top-item money">
+                            <div class="dropdown">
+                                  <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    USD$
+                                  </button>
+                                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">DINNAR</a></li>
+                                    <li><a class="dropdown-item" href="#">TAKA</a></li>
+                                    <li><a class="dropdown-item" href="#">URO</a></li>
+                                  </ul>
+                                </div>
+                      </div>
+                </div>
+    <div class="col-lg-6 col-6 col-sm-6 col-md-6">
+      <div class="log_in">
+            <p>Toll Free: +123 4567 8900</p>
+      </div>
+  </div>
+              </div>
+                  </div>
+                  </div>
+                  <div class="col-lg-4">
+                  </div>
+                  <div class="col-lg-4 col-12 col-sm-14 col-md-12 pe-0">
+                    <div class="header-right">
+                      <div class="col-lg-3 col-3 col-sm-3 col-md-3">
+                        <div class="right-item text-start">
+                          <p><i class="fa-solid fa-heart"></i>Wishlist</p>
+                    </div>
+                      </div>
+                      <div class="col-lg-4 col-4 col-sm-4 col-md-4">
+                        <div class="right-item text-center">
+                          <p><i class="fa-solid fa-user"></i>My Account</p>
+                    </div>
+                      </div>
+                      <div class="col-lg-5 col-5 col-sm-5 col-md-5">
+                        <div class="log text-end">
+                          <p> <i class="fa-solid fa-house"></i>Log in / Register</p>
+                    </div>
+                      </div>
+                </div>
+                </div>
+                </div>
+              </div>
+        </div>
+       </header>
+  <!-- end header-section
+       ===========comment========== -->
+       <!-- start card-section
+       ===========comment========== -->
+       <div class="card d-lg-none">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-2 col-2 col-sm-2 col-md-2">
+              <div class="logo-card">
+                <a href="#"><img src="images/logo.png"></a>
+              </div>
+            </div>
+            <div class="col-lg-9 col-9 col-sm-9 col-md-9">
+              <div class="card-search d-flex">
+                <div class="card-form">
+                  <input type="text" placeholder="Search in E-buy">
+                </div>
+                <div class="product-search">
+                  <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-1 col-1 col-sm-1 col-md-1">
+              <div class="card-offer d-flex">
+                <div class="card-buy mt-1">
+                  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-cart-shopping"></i> </button>
+     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        ...
+      </div>
+    </div>
+                </div>
+              </div>
+            </div>
+  
+          </div>
+       
+        </div>
+       </div>
+        <!-- end card-section
+       ===========comment========== -->
+       <!-- start menu-section
+       ===========comment========== -->
+       <section id="menu">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light d-none d-lg-block menu_bg">
+          <div class="container">
+            <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="product.html">Product</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="shipping.html">Shopping</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="checkout.html">Checkout</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+            <div class="search-item d-flex">
+              <form action="">
+                <div class="close">
+                  <input type="text" class="class_input">
+                    <i class="fa-solid fa-magnifying-glass clickkk"></i>
+                </div>
+              </form>
+              <div class="item-select">
+               
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-cart-shopping"></i> Item</button>
+  
+   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      ...
+    </div>
+  </div>
+              </div>
+  
+            </div>
+          </div>
+        </nav>
+            </div>
+                 
+       </section>
+         <!-- end menu-section
+              ========comment========== -->
+      <!-- start about-section
+          =======comment========== -->
+          <section id="about">
+            <div class="container">
+                  <div class="row">
+                        <div class="col-lg-12">
+                              <div class="about-content">
+                                    <h4>PRODUCT DETAILS</h4>
+                                    <h5>Home <i class="fa-solid fa-angle-right"></i><i class="fa-solid fa-angle-right"></i><span> Product Details</span></h5>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+          </section>
+      <!-- end about-section
+           ======comment========== -->
+                             <!--start product-details section
+                                 =====comment========== -->
+                                 <section id="product_details">
+                                    <div class="container">
+                                          <div class="row">
+                                                <div class="col-lg-5 ps-0">
+                                                      <div class="product_img">
+                                                            <div class="xzoom_container">
+                                                                  <img src="images/women1.jpg" alt="" class="xzoom" id="xzoom-default">
+                                                                  <div class="xzoom-thumbs">
+                                                                    <a href="images/women1.jpg">
+                                                                      <img src="images/women1.jpg" alt="" class="xzoom-gallery" width="110"xpreview="images/women1.jpg">
+                                                                    </a>
+                                                                    <a href="images/women2.jpg">
+                                                                      <img src="images/women2.jpg" alt="" class="xzoom-gallery" width="110">
+                                                                    </a>
+                                                                    <a href="images/women3.jpg">
+                                                                      <img src="images/women3.jpg" alt="" class="xzoom-gallery" width="110">
+                                                                    </a>
+                                                                    <a href="images/women4.jpg">
+                                                                        <img src="images/women4.jpg" alt="" class="xzoom-gallery" width="110">
+                                                                      </a>
+                                                                  </div>
+                                                                </div>
+                                                      </div>
+                                                </div>
+                                                <div class="col-lg-7 ps-0">
+                                                      <div class="product_content">
+                                                            <div class="top_part">
+                                                                  <h5>Purple color lady’s skirt with laice</h5>
+                                                                  <i class="fa-solid fa-star"></i>
+                                                                  <i class="fa-solid fa-star"></i>
+                                                                  <i class="fa-solid fa-star"></i>
+                                                                  <i class="fa-solid fa-star"></i>
+                                                                  <i class="fa-solid fa-star"></i>
+                                                                  <h6>$ 99.00</h6>
+                                                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore agna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.</p>
+
+                                                            </div>
+                                                            <div class="color">                                                     <h5> color <span class="cho">:  <input type="checkbox"> Chocolate</span></h5>
+                                                               <h5>Size  <span class="larg">: <input type="checkbox"> Large</span></h5>
+                                                               <h5>Quantity :  <input type="number" value="1"></h5>
+                                                               
+                                                            </div>
+                                                            <div class="select_three">
+                                                                  <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                                                    <a href="#"><i class="fa-solid fa-sliders"></i></a>
+                                                                    <a href="#"><i class="fa-solid fa-bucket"></i></a>      
+                                                            </div>
+                                                            <div class="code-catagory">
+                                                           
+                                                            <h6>Code <span class="sky">: SKY-12345678 </span></h6>
+                                                            <h6>Category <span class="far">: Fashion</span></h6>
+                                                            <h6>Tags <span class="shirt">: T-shirt, Skirt</span></h6>
+                                                          </div>                                                           
+                                                            <div class="share-in">
+                                                                  <h6>Share in:</h6>
+                                                                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                      <a href="#"><i class="fa-brands fa-behance"></i></a>
+                                      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                                            </div>                                           
+                                                      </div>
+                                                </div>
+                                          </div>
+                                          <div class="row">
+                                            <div class="col-lg-12">
+                                             <div class="bottom-part">
+                                              <div class="discribe-review">
+                                                <h4>Description  | Reviews</h4>
+                                              </div>
+                                              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occacat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste.</p>
+                                              <p>
+                                                natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explibo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.</p>
+
+                                             </div>
+                                             
+                                            </div>
+                                          </div>
+                                    </div>
+                                 </section>
+
+                                  <!--end product-details section
+                                      =====comment========== -->
+                                        <!--start Latest-Products-section
+                    ======comment========== -->
+                    <section id="latest_product">
+                        <div class="container">
+                          <div class="row ">
+                            <div class="col-lg-6 offset-lg-3">
+                              <div class="product_heading text-center">
+                                <h2>Latest Products</h2>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row mt-5 product_part">
+                            <div class="col-lg-3">
+                              <div class="item_product">
+                                <div class="ptoduct_img">
+                                  <img src="images/product1.jpg" alt="product1"class="w-100">
+                                  <div class="overlay_product">
+                                    <div class="overlay-item">
+                                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                      <a href="#"><i class="fa-solid fa-sliders"></i></a>
+                                     <a href="#"><i class="fa-solid fa-bucket"></i></a>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-lg-9 col-9 col-sm-9 col-md-9">
+                                      <div class="phone_details">
+                                        <h5>Samsung-GTS</h5>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-3 col-3 col-sm-3 col-md-3">
+                                    <div class="price">
+                                      <h5>$90.0</h5>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-3">
+                              <div class="item_product">
+                                <div class="ptoduct_img">
+                                  <img src="images/product2.jpg" alt="product1"class="w-100">
+                                  <div class="overlay_product">
+                                    <div class="overlay-item">
+                                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                      <a href="#"><i class="fa-solid fa-sliders"></i></a>
+                                     <a href="#"><i class="fa-solid fa-bucket"></i></a>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-lg-9 col-9 col-sm-9 col-md-9">
+                                      <div class="phone_details">
+                                        <h5>Samsung-Notebook</h5>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-3 col-3 col-sm-3 col-md-3">
+                                    <div class="price">
+                                      <h5>$90.0</h5>
+                                    </div>
+                                  </div>
+                                </div>                         
+                              </div>
+                            </div>
+                            <div class="col-lg-3">
+                              <div class="item_product">
+                                <div class="ptoduct_img">
+                                  <img src="images/product3.jpg" alt="product1"class="w-100">
+                                  <div class="overlay_product">
+                                    <div class="overlay-item">
+                                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                      <a href="#"><i class="fa-solid fa-sliders"></i></a>
+                                     <a href="#"><i class="fa-solid fa-bucket"></i></a>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-lg-9 col-9 col-sm-9 col-md-9">
+                                      <div class="phone_details">
+                                        <h5>iPhone-6sPlus</h5>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-3 col-3 col-sm-3 col-md-3">
+                                    <div class="price">
+                                      <h5>$99.0</h5>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-3">
+                              <div class="item_product">
+                                <div class="ptoduct_img">
+                                  <img src="images/product4.jpg" alt="product1"class="w-100">
+                                  <div class="overlay_product">
+                                    <div class="overlay-item">
+                                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-sliders"></i></a>
+                                   <a href="#"><i class="fa-solid fa-bucket"></i></a>/i>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-lg-9 col-9 col-sm-9 col-md-9">
+                                      <div class="phone_details">
+                                        <h5>HTC-Bluray 35</h5>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-3 col-3 col-sm-3 col-md-3">
+                                    <div class="price">
+                                      <h5>$99.0</h5>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-4">
+                              <div class="item_product">
+                                <div class="ptoduct_img">
+                                  <img src="images/product2.jpg" alt="product1" class="w-100">
+                                  <div class="overlay_product">
+                                    <div class="overlay-item">
+                                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                      <a href="#"><i class="fa-solid fa-sliders"></i></a>
+                                     <a href="#"><i class="fa-solid fa-bucket"></i></a>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-lg-9 col-9 col-sm-9 col-md-9">
+                                      <div class="phone_details">
+                                        <h5>HTC-Bluray 35</h5>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-3 col-3 col-sm-3 col-md-3">
+                                    <div class="price">
+                                      <h5>$99.0</h5>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <i class="fa-solid fa-chevron-left product_next"></i>
+                        <i class="fa-solid fa-angle-right product_prev"></i>
+                      </section>
+                      <!--end Latest-Products section
+                          ========================== -->
+                                       <!--start our_partner section
+                             =====comment========== -->
+                             <section id="partner">
+                              <div class="container">
+                                    <div class="row partner-part">
+                                          <div class="col-lg">
+                                                <div class="partner-item">
+                                                      <img src="images/partner2.png" alt="partner2">
+                                                </div>
+                                          </div>
+                                          <div class="col-lg">
+                                                <div class="partner-item">
+                                                      <img src="images/partner1.png" alt="partner1">
+                                                </div>
+                                          </div>
+                                          <div class="col-lg">
+                                                <div class="partner-item">
+                                                      <img src="images/partner3.png" alt="partner3">
+                                                </div>
+                                          </div>
+                                          <div class="col-lg">
+                                                <div class="partner-item">
+                                                      <img src="images/partner4.png" alt="partner4">
+                                                </div>
+                                          </div>
+                                          <div class="col-lg">
+                                                <div class="partner-item">
+                                                      <img src="images/partner5.png" alt="partner5">
+                                                </div>
+                                          </div>
+                                          <div class="col-lg">
+                                                <div class="partner-item">
+                                                      <img src="images/partner1.png" alt="partner1">
+                                                </div>
+                                          </div>
+                                    </div>
+                              </div>
+                              <i class="fa-solid fa-chevron-left partner_next"></i>
+                           <i class="fa-solid fa-angle-right partner_prev "></i>
+                             </section>
+                              <!--end our_partner section
+                             =====comment========== -->
+                           <!--start footer section
+                        ========================== -->
+                        <footer>
+                          <div class="footer_top">
+                            <div class="container">
+                              <div class="row">
+                                <div class="col-lg-3">
+                                  <div class="footer_first">
+                                    <a href="#"><img src="images/logo2.png" alt="logo2"></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                                    <p>magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3">
+                                  <div class="footer_second">
+                                    <h6>CONTACT US</h6>
+                                    <div class="second_details">
+                                      <p> <i class="fa-solid fa-location-dot"></i>1234, Parkstreet Avenue, NewYork</p>
+                                      <p><i class="fa-solid fa-phone"></i>+123 456 78900, +009 876 54321</p>
+                                      <p><i class="fa-solid fa-envelope"></i>	info@e-buy.com, e-buy@info.com</p>
+                                      <p><i class="fa-solid fa-globe"></i>www.e-buy.com, www.infobuy.com</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-lg-2">
+                                  <div class="footer_third">
+                                    <h6>MY ACCOUNT</h6>
+                                    <div class="third_details">
+                                      <p>My Account</p>
+                                      <p>Wishlist</p>
+                                      <p>Shopping Cart</p>
+                                      <p>Compare</p>
+                                      <p>Checkout</p>
+                                    </div>
+                                  </div>                               
+                                </div>
+                                <div class="col-lg-4">
+                                  <div class="footer_last">
+                                    <h6 class="letter">Sign Up For Newsletter</h6>
+                                    <div class="form">
+                                      <div class="input">
+                                        <input type="text" placeholder="Your Email">                                     
+                                      </div>
+                                      <div class="submit">
+                                        <a href="#">SUBMIT</a>
+                                      </div>
+                                    </div>
+                                    <div class="follow-me">
+                                      <h6>Follow me on</h6>
+                                    </div>
+                                    <div class="sopcial-links">
+                                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                      <a href="#"><i class="fa-brands fa-behance"></i></a>
+                                      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                          </div>
+                          <div class="footer_bottom">
+                            <div class="container">
+                              <div class="row">
+                                <div class="col-lg-6">
+                                  <div class="copy_write">
+                                    <p>Copyright<i class="fa-regular fa-copyright"></i>2018. All right reserved by E-BUY</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-6">
+                                  <div class="payment text-end">
+                                    <img src="images/payment.png" alt="payment">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </footer>
+                           <!--end footer section
+                        ========================== -->
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="js/jquery.nice-number.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+ <script src="js/slick.min.js"></script>
+ <script src="js/xzoom.min.js"></script>
+<script src="js/main.js"></script> 
+</body>
+</html>

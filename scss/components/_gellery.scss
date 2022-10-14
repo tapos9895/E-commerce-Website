@@ -1,0 +1,66 @@
+/* start gellery style 
+   =========comment==========*/
+#gellery{
+      padding: 60px 0;
+}
+
+.gellery_img{
+      position: relative;
+      .gellery_overlay{
+            position: absolute;
+            width: 90%;
+            height: 34%;
+            bottom: 5%;
+            right: 5%;
+            background: #272a2bd3;
+            content: "";
+            .image_age{
+                  position: absolute;
+                  top: -260px;
+                  left: -46px;
+                  background: #ffff;
+                  
+                  transform: rotate(-40deg);
+                  opacity: 0;
+                  transition: .3s;
+                  h5{
+                        font-size: 15px;
+                        color: #de4644;
+                  }
+            }
+            h3{
+                  font-size: 36px;
+                  color: #fff;
+                  font-weight: 400;
+                  text-transform: capitalize;
+                 
+                 
+            }
+            h4{
+                  font-size: 24px;
+                  color: #fff;
+                  font-weight: 400;
+                  text-transform: capitalize;   
+                  margin-bottom: 9px;
+            }
+            a{
+                  padding: 14px 20px;
+                  border: 1px solid #fff;
+                  font-size: 16px;
+                  color: #fff;
+                  margin-bottom: 10px;
+                  transition: .5s;
+                  &:hover{
+                        background: #de4644;
+                        border: 1px solid transparent;
+                  }
+            }
+      }
+      &:hover .image_age{
+            opacity: 1;
+            padding: 5px 45px;
+        }
+    
+}
+/* end gellery style 
+   =========comment==========*/
